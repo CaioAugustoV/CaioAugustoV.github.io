@@ -9478,7 +9478,7 @@ function () {
       var _this2 = this;
 
       this.promisedBuildId = new _promise.default(function (resolve) {
-        unfetch_1.default("".concat(_this2.assetPrefix, "/_next/static/HEAD_BUILD_ID")).then(function (res) {
+        unfetch_1.default("".concat(_this2.assetPrefix, "/sanarflix/_next/static/HEAD_BUILD_ID")).then(function (res) {
           if (res.ok) {
             return res;
           }
@@ -9507,7 +9507,7 @@ function () {
           route = _this4.normalizeRoute(route);
           var scriptRoute = route === '/' ? '/index.js' : "".concat(route, ".js");
           var script = document.createElement('script');
-          var url = "".concat(_this4.assetPrefix, "/_next/static/").concat(encodeURIComponent(_this4.buildId), "/pages").concat(scriptRoute);
+          var url = "".concat(_this4.assetPrefix, "/sanarflix/_next/static/").concat(encodeURIComponent(_this4.buildId), "/pages").concat(scriptRoute);
           script.crossOrigin = undefined;
           script.src = url;
 
@@ -9630,7 +9630,7 @@ function () {
               var link = document.createElement('link');
               link.rel = 'preload';
               link.crossOrigin = undefined;
-              link.href = "".concat(_this7.assetPrefix, "/_next/static/").concat(encodeURIComponent(_this7.buildId), "/pages").concat(scriptRoute);
+              link.href = "".concat(_this7.assetPrefix, "/sanarflix/_next/static/").concat(encodeURIComponent(_this7.buildId), "/pages").concat(scriptRoute);
               link.as = 'script';
               document.head.appendChild(link);
               _exit2 = true;
