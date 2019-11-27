@@ -3892,7 +3892,7 @@ footer .address li:first-child {
 
 /* Footer Bottom */
 .footer-bottom {
-  padding-top: 15px;
+  padding: 15px 0;
   margin-top: 50px;
   border-top: 1px solid #e7e7e7;
 }
