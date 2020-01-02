@@ -4229,3 +4229,20 @@ footer.demo .copyright {
 .container-margin-block{
   margin: 12vh 0;
 }
+
+.icon div{
+  height: 95px;
+  width: 95px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #cccccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.icon img{
+  height: 45px;
+  width: 45px;
+}
